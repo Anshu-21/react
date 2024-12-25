@@ -1,9 +1,11 @@
 import React from "react";
 import "./App.css";
+import Chai from './Chai'
 
 function App() {
   return (
-    <div>
+    <>
+      <Chai />
       <h1>Chai or React | Anshu</h1>
       <div>React Series</div>
       <ul>
@@ -21,7 +23,7 @@ function App() {
           Redux Toolkit, Zustand, Context API.
         </li>
       </ul>
-    </div>
+    </>
   );
 }
 
